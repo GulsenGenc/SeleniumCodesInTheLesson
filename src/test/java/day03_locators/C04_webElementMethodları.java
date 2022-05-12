@@ -33,7 +33,7 @@ public class C04_webElementMethodları {
             System.out.println("tagname testi FAILED");
         }
 
-        //3->arama kutusunun name attribute nun değerinin.... oldugunu test edın.
+        //3->arama kutusunun name attribute nun değerinin "field-keywords" oldugunu test edın.
 
         String  expectedNameDegeri="field-keywords";
         String actualNameDegeri=aramaKutusu.getAttribute("name");
