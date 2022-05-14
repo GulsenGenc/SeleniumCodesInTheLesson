@@ -1,4 +1,4 @@
-package day04_xpath;
+package day04_xpath_cssLocater;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -28,7 +28,7 @@ e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
         d. “Shopping” e tıklayın.
         e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
          */
-        System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/resources/divers/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
